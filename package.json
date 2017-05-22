@@ -1,0 +1,32 @@
+{
+  "name": "platzom",
+  "version": "0.1.0",
+  "description": "Traductor del idioma platzom",
+  "main": "dist/src/platzom.js",
+  "scripts": {
+    "build": "babel src/platzom.js -d dist",
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/orionkmc/platzom.git"
+  },
+  "keywords": [
+    "platzom",
+    "platzi",
+    "fundamentos",
+    "javascript",
+    "js"
+  ],
+  "author": "Kuai Mare Carrasquero <orionkmc@gmail.com> (https://twitter.com/orionkmc)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/orionkmc/platzom/issues"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.24.1",
+    "babel-preset-env": "^1.5.1",
+    "chai": "^3.5.0",
+    "mocha": "^3.4.1"
+  }
+}
